@@ -1,0 +1,78 @@
+body {
+    background-color: #ccc;
+}
+
+div {
+    width: 600px;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    position: relative;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    background-color: #444;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.menu li:hover {
+    background-color: #333;
+}
+
+.submenu,
+.submenu2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.submenu li {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.submenu li a {
+    color: #fff;
+    display: block;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu2 {
+    top: 0;
+    left: 100%; /* Coloca el submenú al lado derecho del padre */
+}
+
+.submenu li:hover .submenu2 {
+    display: block;
+}
+
