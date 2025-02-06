@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+.conoce{
+    text-align: center;
+}
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4bbca9;
+    color: #fff;
+}
+
+.ins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/img/fondo.png');
+    background-size: cover;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.inst {
+    flex: 1;
+    text-align: left;
+}
+.inscripcion {
+    background-color: #4bbca9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.inscripcion h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.inscripcion form input {
+    width: 90%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.inscripcion button {
+    background-color: #fff;
+    color: #4bbca9;
+    width: 90%;
+    margin: 9px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.inscripcion button:hover {
+    background-color: #408f82;
+    color: #fff;
+}
+
+.contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+.ini h2 {
+    color: #4bbca9;
+    text-align: ce;
+    font-size: 30px;
+}
+
+.contenido p {
+    text-align: left;
+}
+
+h3 {
+    color: #4bbca9;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aprendizaje {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 18px;
+    width: 200px;
+    border: 1px solid #000000;
+        text-align: center;
+}
+.item h4{
+    color: #4bbca9;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.f{
+    color: #4bbca9;
+    text-align: left;
+    font-size: 30px;
+}
+.f2{
+    color: #ffffff;
+    text-align: left;
+}
+.up{
+    color: #4bbca9;
+}
+.social{
+    width: 250px;
+    margin-left:auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4bbca9;
+    color: #fff;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:auto;
+    margin-top: 20px;
+    
+}
+.f{
+    color: #4bbca9;
+    text-align: left;
+    font-size: 30px;
+}
+.f2{
+    color: #ffffff;
+    text-align: left;
+}
+.up{
+    color: #4bbca9;
+}
+.social{
+    width: 250px;
+    margin-left:auto;
+}
+/*temario css*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+td:nth-child(3) {
+    min-width: 300px;
+    word-wrap: break-word;
+}
+.tt{
+    color: #4bbca9;
+    text-align: center;
+}
+.un{
+    background-color: #4bbca9;
+    color: #fff;
+}
+.tem{
+    background-color: #4bbca9;
+    color: #fff;
+}
+.su{
+    background-color: #4bbca9;
+    color: #fff;
+}
+
+/*Horario css*/
+.prog{
+    text-align: left;
+    color: #000000;
+}
+.hora{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.u{
+    background-color: rgb(43, 203, 203);
+}
+.d{
+    background-color: rgb(89, 210, 124);
+}
+.t{
+    background-color: rgb(148, 116, 222);
+}
+.c{
+    background-color: rgb(208, 99, 141);
+}
+.s{
+    background-color: rgb(98, 183, 248);
+}
+.z{
+    background-color: #b0ffe5;
+}
+.y{
+    background-color: antiquewhite;
+}
+.pr{
+    background-color: rgb(162, 17, 17);
+    color: #ffffff;
+}
+
+/*profe css*/
+.prof {
+    background-color: #4bbca9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-top: 12mm;
+    margin-block: 12mm;
+    margin-left: 125mm;
+}
+.tt{
+    color: #fff;
+}
+.inscripcionn {
+    background-color: #4bbca9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-top: 12mm;
+    margin-block: 12mm;
+    margin-left: 125mm;
+}
+.ndp{
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+.bdp{
+    color:#1a4c44;
+    font-size: 12px;
+}
+.impr{
+    border-radius: 50%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bdpa{
+    color: #ffffff;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*contacto css*/
+.cont {
+    flex: 1;
+    text-align: center;
+    color: #4bbca9;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contt{
+    color:#376c63;
+}
+.fa{
+    color: #ffffff;
+}
+.num{
+    color: #ffffff;
+}
